@@ -45,13 +45,13 @@ namespace View
                     }
                     return;
                 case SquareButtonState.Ship:
-                    this.BackColor = Color.Magenta;
+                    this.BackColor = Color.Black;
                     return;
                 case SquareButtonState.Eliminated:
                     this.BackColor = Color.LightGray;
                     break;
                 case SquareButtonState.Missed:
-                    this.BackColor = Color.Black;
+                    this.BackColor = Color.Green;
                     break;
                 case SquareButtonState.Hit:
                     this.BackColor = Color.OrangeRed;
